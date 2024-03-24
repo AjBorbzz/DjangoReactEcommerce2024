@@ -21,7 +21,6 @@ function HomeScreen() {
                 <Col key={product._id} sm={12} md={6} lg={4} xl={3}> 
                 <h3>
                     <Product product={product}/>
-                    <Rating value={product.rating} text={`${product.numReviews} reviews`} color={'#f8e825'} />
                 </h3>
                 </Col>
             ))}
