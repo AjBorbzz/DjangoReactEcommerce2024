@@ -2,17 +2,18 @@ import React, {useState, useEffect} from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
 import axios from 'axios'
-import products from '../products'
+import Rating from '../components/Rating'
+// import products from '../products'
 
 function HomeScreen() {
-  // const [products,setProducts] = useState([])
-  // useEffect(()=> {
-  //   async function fetchProducts() {
-  //     const { data } = await axios.get('/products')
-  //     setProducts(data)
-  //   }
-  //   fetchProducts()
-  // }, [])
+  const [products,setProducts] = useState([])
+  useEffect(()=> {
+    async function fetchProducts() {
+      const { data } = await axios.get('/products')
+      setProducts(data)
+    }
+    fetchProducts()
+  }, [])
   return (
     <div><h1>Latest Products</h1>
         <Row>
@@ -20,7 +21,7 @@ function HomeScreen() {
                 <Col key={product._id} sm={12} md={6} lg={4} xl={3}> 
                 <h3>
                     <Product product={product}/>
-                    {/* {product.name} */}
+                    <Rating value={product.rating} text={`${product.numReviews} reviews`} color={'#f8e825'} />
                 </h3>
                 </Col>
             ))}
