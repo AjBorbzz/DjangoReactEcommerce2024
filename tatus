@@ -1,0 +1,29 @@
+[33mcommit 66fd3ede5b56a252e62c49f0a7af70834c8ec439[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Ajborbzz <ajborbzz@gmail.com>
+Date:   Tue Mar 26 14:47:43 2024 +0800
+
+    Added ProductDetails Action and Reducer
+
+[33mcommit 11744b2c2e41660522b510bcb3bddec8b39ec85d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Ajborbzz <ajborbzz@gmail.com>
+Date:   Mon Mar 25 22:45:36 2024 +0800
+
+    Added React Redux to Frontend
+
+[33mcommit d5e95840523a1fb3b5e4c9d95a72c59edef48b8c[m
+Author: Ajborbzz <ajborbzz@gmail.com>
+Date:   Sun Mar 24 12:47:04 2024 +0800
+
+    Fixed margins
+
+[33mcommit 91cfa702a1d7f7cc6f9f1ba239ecc8c15f4be759[m
+Author: Ajborbzz <ajborbzz@gmail.com>
+Date:   Sun Mar 24 12:39:11 2024 +0800
+
+    Fixed ProductScreen from Router
+
+[33mcommit 9ea55a6e4f766b0fa74f91aa7e379366b9a6ab78[m
+Author: Ajborbzz <ajborbzz@gmail.com>
+Date:   Sat Mar 23 23:44:21 2024 +0800
+
+    First Commit
