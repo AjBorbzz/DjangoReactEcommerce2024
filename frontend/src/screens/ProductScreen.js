@@ -47,7 +47,7 @@ function ProductScreen() {
                         </ListGroup.Item>
     
                         <ListGroup.Item>
-                            Description: ${product.description}
+                            Description: {product.description}
                         </ListGroup.Item>
     
                     </ListGroup>
