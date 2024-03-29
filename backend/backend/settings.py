@@ -140,4 +140,5 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # Admin
 #Jaborgs123
+#jaborgs@yahoo.com
 #taoako025
