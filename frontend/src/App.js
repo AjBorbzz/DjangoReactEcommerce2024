@@ -5,6 +5,8 @@ import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
 import CartScreen from './screens/CartScreen'
 import LoginScreen from './screens/LoginScreen'
+import RegisterScreen from './screens/RegisterScreen'
+import ProfileScreen from './screens/ProfileScreen'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
@@ -17,6 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element={<HomeScreen />}  exact/>
           <Route path='/login' element={<LoginScreen />} />
+          <Route path='/register' element={<RegisterScreen />} />
+          <Route path='/profile' element={<ProfileScreen />} />
           <Route path='/product/:id' Component={ProductScreen} />
           <Route path='/cart/:id?' Component={CartScreen} />
         </Routes>
