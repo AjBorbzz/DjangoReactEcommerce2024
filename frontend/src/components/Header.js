@@ -31,9 +31,6 @@ function Header() {
           
           <Nav className="me-auto">
 
-            <LinkContainer to='/cart'>
-              <Nav.Link><i className="fas fa-shopping-cart"> Cart</i></Nav.Link>
-            </LinkContainer>  
 
             <LinkContainer to='/pricing'>
               <Nav.Link>Categories</Nav.Link>
