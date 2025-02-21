@@ -1,1 +1,1 @@
-## Django React E-Commerce App 2024
+## Django React E-Commerce App
